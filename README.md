@@ -10,7 +10,7 @@ docker pull kazunobufujii/oracle-xe-11g
 
 Run with 1521 ports opened:
 ```
-docker run -d -e ORACLE_USER=hoge -e ORACLE_PASSWORD=foo -p 1521:1521 kazunobufujii/oracle-xe-11g
+docker run -d -p 1521:1521 kazunobufujii/oracle-xe-11g
 ```
 
 Connect database with following setting:
